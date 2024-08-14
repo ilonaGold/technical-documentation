@@ -1,0 +1,92 @@
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f1f1f1;
+    font-size: 1.6rem;
+}
+
+h1,
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32rem;
+    height: 100vh;
+    padding: 3rem;
+    background: #fff;
+}
+
+.nav-links {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #808080;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.nav-link:hover {
+    background: #eee;
+    font-weight: bold;
+    transition: all ease-in-out .2s;
+}
+
+#main-doc {
+    margin-left: 40rem;
+    margin-right: 2rem;
+}
+
+.main-section {
+    margin: 5rem 0;
+}
+
+code {
+    display: block;
+    text-align: left;
+    background: #fff;
+    white-space: pre-wrap;
+    line-height: 2;
+    padding: 1rem;
+    border-radius: 1rem;
+ }
+
+@media (max-width: 1200px) {
+#navbar {
+    width: 20rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+header {
+    font-size: 2rem;
+}
+#main-doc {
+    margin-left: 30rem;
+}
+}
+
